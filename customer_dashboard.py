@@ -267,4 +267,5 @@ def request_profit_date(on_click, top_or_bot):
 
 
 # Run
-app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(debug=True)
