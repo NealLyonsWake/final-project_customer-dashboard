@@ -1,11 +1,11 @@
 region,county,category,quantity
 East Midlands,East Lindsey,meat & fish,183070971
 Scotland,Falkirk,meat & fish,179729244
+East Midlands,East Lindsey,fruits & vegetables,175468599
 East Midlands,East Lindsey,dairy,173986623
+Scotland,Falkirk,fruits & vegetables,171433710
 Scotland,Falkirk,dairy,170822727
-East Midlands,East Lindsey,fruits & vegetables,166757328
 East Midlands,East Lindsey,clothing,165096144
-Scotland,Falkirk,fruits & vegetables,162865530
 Scotland,Falkirk,clothing,162653832
 East Midlands,East Lindsey,bakery,122159061
 East Midlands,East Lindsey,gaming,121829490
@@ -17,39 +17,39 @@ London,Greater London,meat & fish,88608396
 Scotland,Orkney,meat & fish,88019608
 South East England,Kent,meat & fish,87648428
 East of England,East Cambridgeshire,dairy,85674340
+East of England,East Cambridgeshire,fruits & vegetables,85402120
 West Midlands,Warwickshire,dairy,84752604
+London,Greater London,fruits & vegetables,84667304
+West Midlands,Warwickshire,fruits & vegetables,84335840
 London,Greater London,dairy,84181104
 Scotland,Orkney,dairy,84089616
+Scotland,Orkney,fruits & vegetables,83624816
+South East England,Kent,fruits & vegetables,83525440
 South East England,Kent,dairy,83319296
 East of England,East Cambridgeshire,clothing,81512924
-East of England,East Cambridgeshire,fruits & vegetables,81140448
-London,Greater London,fruits & vegetables,80477720
 West Midlands,Warwickshire,clothing,80362764
-West Midlands,Warwickshire,fruits & vegetables,80176384
 London,Greater London,clothing,79931720
 Scotland,Orkney,clothing,79732448
 London,Islington,meat & fish,79529652
-Scotland,Orkney,fruits & vegetables,79463644
-South East England,Kent,fruits & vegetables,79331628
 South East England,Kent,clothing,79301972
 South West England,West Somerset,meat & fish,78704708
 South West England,West Somerset,dairy,75864208
 London,Islington,dairy,75767508
+London,Islington,fruits & vegetables,75483940
+South West England,West Somerset,fruits & vegetables,75458780
 Wales,Neath Port Talbot,meat & fish,72378916
 London,Islington,clothing,71934180
-London,Islington,fruits & vegetables,71742596
-South West England,West Somerset,fruits & vegetables,71629056
 Scotland,Edinburgh City,meat & fish,71574748
 South West England,West Somerset,clothing,71495496
 Wales,Wrexham,meat & fish,71024152
 Wales,Neath Port Talbot,dairy,68922776
+Wales,Neath Port Talbot,fruits & vegetables,68900696
+Scotland,Edinburgh City,fruits & vegetables,68441612
 Scotland,Edinburgh City,dairy,68129620
+Wales,Wrexham,fruits & vegetables,67483976
 Wales,Wrexham,dairy,67294860
-Wales,Neath Port Talbot,fruits & vegetables,65524180
 Wales,Neath Port Talbot,clothing,65396964
 Scotland,Edinburgh City,clothing,65194172
-Scotland,Edinburgh City,fruits & vegetables,65062284
-Wales,Wrexham,fruits & vegetables,64143824
 Wales,Wrexham,clothing,64126996
 East Midlands,East Lindsey,appliances,60896790
 East of England,East Cambridgeshire,bakery,59883924
@@ -77,8 +77,8 @@ Wales,Wrexham,bakery,47135112
 Wales,Wrexham,gaming,47042820
 Yorkshire and the Humber,North Yorkshire,meat & fish,42679484
 Yorkshire and the Humber,North Yorkshire,dairy,40553608
+Yorkshire and the Humber,North Yorkshire,fruits & vegetables,40511527
 Yorkshire and the Humber,North Yorkshire,clothing,38478190
-Yorkshire and the Humber,North Yorkshire,fruits & vegetables,38452527
 East of England,East Cambridgeshire,appliances,30203524
 London,Greater London,appliances,29575936
 West Midlands,Warwickshire,appliances,29436048
@@ -126,89 +126,99 @@ South West England,East Devon,meat & fish,21824197
 South East England,Mole Valley,meat & fish,21800414
 West Midlands,Lichfield,meat & fish,21761432
 Scotland,Peeblesshire,meat & fish,21724515
+Wales,Flintshire,fruits & vegetables,21439582
 Northern Ireland,Larne,meat & fish,21397687
+East Midlands,Lincoln,fruits & vegetables,21338301
 East Midlands,Lincoln,dairy,21305858
 Wales,Flintshire,dairy,21273324
+East Midlands,South Northamptonshire,fruits & vegetables,21209273
+West Midlands,Stoke-on-Trent,fruits & vegetables,21197854
 East Midlands,South Northamptonshire,dairy,21156432
 West Midlands,Staffordshire,dairy,21153781
 East Midlands,Bassetlaw,dairy,21145312
 North West England,Wyre,dairy,21142144
+North West England,Wyre,fruits & vegetables,21140387
+North East England,Tyne and Wear,fruits & vegetables,21139106
 West Midlands,Stoke-on-Trent,dairy,21138688
+South East England,Epsom and Ewell,fruits & vegetables,21128612
+West Midlands,Staffordshire,fruits & vegetables,21123860
 Yorkshire and the Humber,Richmondshire,dairy,21113178
 North West England,Cheshire East,dairy,21110715
 South East England,Epsom and Ewell,dairy,21106473
+Scotland,North Ayrshire,fruits & vegetables,21105712
+North West England,Cheshire East,fruits & vegetables,21090341
 Scotland,North Ayrshire,dairy,21090114
 North East England,Tyne and Wear,dairy,21084117
+East Midlands,Bassetlaw,fruits & vegetables,21081321
+North West England,Fylde,fruits & vegetables,21065418
+East of England,Castle Point,fruits & vegetables,21043866
+London,Lambeth,fruits & vegetables,21027801
+North West England,Sefton,fruits & vegetables,21016611
 South East England,East Sussex,dairy,21015268
+Yorkshire and the Humber,Richmondshire,fruits & vegetables,21013614
 North West England,Sefton,dairy,20992873
 London,Newham,dairy,20989794
 Wales,Swansea,dairy,20987992
+London,Newham,fruits & vegetables,20976787
 North West England,Fylde,dairy,20971568
+South West England,Forest of Dean,fruits & vegetables,20966518
 London,Lambeth,dairy,20959019
+Wales,Swansea,fruits & vegetables,20957475
 East of England,Castle Point,dairy,20947655
 South East England,Chiltern,dairy,20913774
 South West England,Dorset,dairy,20908857
 South West England,Forest of Dean,dairy,20886326
+South East England,East Sussex,fruits & vegetables,20885198
+South East England,Chiltern,fruits & vegetables,20876666
 London,Haringey,dairy,20867807
+South West England,Dorset,fruits & vegetables,20860676
+London,Haringey,fruits & vegetables,20835752
+Wales,Ceredigion,fruits & vegetables,20803450
 Wales,Ceredigion,dairy,20802907
 South West England,East Devon,dairy,20775601
+Scotland,Peeblesshire,fruits & vegetables,20756189
+South West England,East Devon,fruits & vegetables,20731525
+South East England,Mole Valley,fruits & vegetables,20701136
+West Midlands,Lichfield,fruits & vegetables,20685525
 West Midlands,Lichfield,dairy,20681600
 Wales,Neath Port Talbot,computing,20675488
 South East England,Mole Valley,dairy,20600524
 Scotland,Peeblesshire,dairy,20570693
 Scotland,Edinburgh City,computing,20497332
-Wales,Flintshire,fruits & vegetables,20355668
+Northern Ireland,Larne,fruits & vegetables,20372503
 Northern Ireland,Larne,dairy,20352921
 Wales,Bridgend,meat & fish,20296645
-East Midlands,Lincoln,fruits & vegetables,20273736
 Wales,Flintshire,clothing,20271317
 South East England,Bracknell Forest,meat & fish,20258042
 East Midlands,South Northamptonshire,clothing,20216828
 East Midlands,Lincoln,clothing,20211555
 North West England,Chorley,meat & fish,20164966
 Scotland,North Ayrshire,clothing,20161956
-East Midlands,South Northamptonshire,fruits & vegetables,20150352
 South East England,Hampshire,meat & fish,20143662
-West Midlands,Stoke-on-Trent,fruits & vegetables,20143547
 Wales,Rhoose,meat & fish,20136358
 Wales,Barry,meat & fish,20120727
 South East England,Epsom and Ewell,clothing,20118710
 East Midlands,Nottinghamshire,meat & fish,20111490
 East Midlands,Bassetlaw,clothing,20110994
-North East England,Tyne and Wear,fruits & vegetables,20104233
-West Midlands,Staffordshire,fruits & vegetables,20085951
-South East England,Epsom and Ewell,fruits & vegetables,20077733
 North West England,Cheshire East,clothing,20074881
-Scotland,North Ayrshire,fruits & vegetables,20068686
-North West England,Wyre,fruits & vegetables,20066586
-North West England,Cheshire East,fruits & vegetables,20057108
 Wales,Wrexham,computing,20049600
 North West England,Wyre,clothing,20037666
-East Midlands,Bassetlaw,fruits & vegetables,20032378
 West Midlands,Stoke-on-Trent,clothing,20026544
 North East England,Tyne and Wear,clothing,20022225
 Scotland,Dumfries and Galloway,meat & fish,20016199
-North West England,Fylde,fruits & vegetables,20010580
 Yorkshire and the Humber,Richmondshire,clothing,20003667
 Northern Ireland,Belfast,meat & fish,20000359
 North West England,Fylde,clothing,19989916
-East of England,Castle Point,fruits & vegetables,19983848
 West Midlands,Staffordshire,clothing,19972528
-North West England,Sefton,fruits & vegetables,19972333
 North West England,Sefton,clothing,19971470
-Yorkshire and the Humber,Richmondshire,fruits & vegetables,19967971
-London,Lambeth,fruits & vegetables,19964454
 East of England,Castle Point,clothing,19962535
 Wales,Swansea,clothing,19954310
 East of England,Bedford Borough,meat & fish,19951933
 London,Newham,clothing,19942923
 East of England,Norfolk,meat & fish,19940693
 South East England,Isle of Wight,meat & fish,19930329
-London,Newham,fruits & vegetables,19927174
 London,Lambeth,clothing,19920412
 South East England,Fareham,meat & fish,19916351
-South West England,Forest of Dean,fruits & vegetables,19911470
-Wales,Swansea,fruits & vegetables,19896901
 South East England,Oxford,meat & fish,19891875
 London,Haringey,clothing,19884949
 South West England,Forest of Dean,clothing,19874161
@@ -217,177 +227,167 @@ South East England,Chiltern,clothing,19868993
 South East England,East Sussex,clothing,19868506
 East Midlands,Hinckley and Bosworth,meat & fish,19850694
 London,Harrow,meat & fish,19848131
-South East England,Chiltern,fruits & vegetables,19846587
-South East England,East Sussex,fruits & vegetables,19842216
-South West England,Dorset,fruits & vegetables,19833459
-London,Haringey,fruits & vegetables,19784435
-Wales,Ceredigion,fruits & vegetables,19779187
-Scotland,Peeblesshire,fruits & vegetables,19720360
 South West England,East Devon,clothing,19718848
 West Midlands,Lichfield,clothing,19708838
-South West England,East Devon,fruits & vegetables,19707489
 South East England,Mole Valley,clothing,19679593
 Wales,Powys,meat & fish,19668172
-South East England,Mole Valley,fruits & vegetables,19661397
 Wales,Ceredigion,clothing,19659924
-West Midlands,Lichfield,fruits & vegetables,19655276
 Scotland,Peeblesshire,clothing,19625835
 East of England,St. Edmundsbury,meat & fish,19612358
+South East England,Bracknell Forest,fruits & vegetables,19463981
 Northern Ireland,Larne,clothing,19458461
+Wales,Bridgend,fruits & vegetables,19399588
 South East England,Bracknell Forest,dairy,19398293
-Northern Ireland,Larne,fruits & vegetables,19366471
 Wales,Bridgend,dairy,19344340
 South East England,Hampshire,dairy,19271113
+South East England,Hampshire,fruits & vegetables,19269909
 East Midlands,Nottinghamshire,dairy,19253171
+Wales,Barry,fruits & vegetables,19224564
+North West England,Chorley,fruits & vegetables,19214384
 Wales,Rhoose,dairy,19194483
 Wales,Barry,dairy,19173902
+East Midlands,Nottinghamshire,fruits & vegetables,19167276
 North West England,Chorley,dairy,19164432
+East of England,Bedford Borough,fruits & vegetables,19161384
+South East England,Oxford,fruits & vegetables,19140321
+Wales,Rhoose,fruits & vegetables,19126328
+Northern Ireland,Belfast,fruits & vegetables,19110073
+South East England,Fareham,fruits & vegetables,19085586
 South East England,Oxford,dairy,19080220
+East of England,Norfolk,fruits & vegetables,19043222
 Northern Ireland,Belfast,dairy,19034478
 East of England,Norfolk,dairy,19026628
 East of England,Bedford Borough,dairy,19019114
 London,Harrow,dairy,19013278
+South East England,Isle of Wight,fruits & vegetables,19010076
+Scotland,Dumfries and Galloway,fruits & vegetables,18977809
+London,Harrow,fruits & vegetables,18953719
 Scotland,Dumfries and Galloway,dairy,18951793
 South East England,Isle of Wight,dairy,18941345
 South East England,Fareham,dairy,18939559
 Wales,Powys,dairy,18851035
+East Midlands,Hinckley and Bosworth,fruits & vegetables,18849309
+Wales,Powys,fruits & vegetables,18836405
 East Midlands,Hinckley and Bosworth,dairy,18829959
 East of England,St. Edmundsbury,dairy,18667142
-South East England,Bracknell Forest,fruits & vegetables,18489528
-Wales,Bridgend,fruits & vegetables,18418136
+East of England,St. Edmundsbury,fruits & vegetables,18628986
 South East England,Bracknell Forest,clothing,18367956
 North East England,Stockton-on-Tees,meat & fish,18359528
 Wales,Isle of Anglesey,meat & fish,18351632
 Wales,Bridgend,clothing,18332120
 Wales,Rhoose,clothing,18320594
 East of England,Uttlesford,meat & fish,18319836
-South East England,Hampshire,fruits & vegetables,18312993
 South East England,Reigate and Banstead,meat & fish,18251122
 South East England,Hampshire,clothing,18249409
 West Midlands,Worcestershire,meat & fish,18247472
 East Midlands,Rushcliffe,meat & fish,18241968
-North West England,Chorley,fruits & vegetables,18239913
-Wales,Barry,fruits & vegetables,18239834
 Yorkshire and the Humber,York,meat & fish,18221869
 East Midlands,Newark and Sherwood,meat & fish,18218353
 Yorkshire and the Humber,Selby,meat & fish,18216032
 Wales,Barry,clothing,18215042
-East of England,Bedford Borough,fruits & vegetables,18214068
 South East England,Shepway,meat & fish,18207325
 London,Hackney,meat & fish,18204630
-South East England,Oxford,fruits & vegetables,18198930
-East Midlands,Nottinghamshire,fruits & vegetables,18188124
-Wales,Rhoose,fruits & vegetables,18176062
 East Midlands,Nottinghamshire,clothing,18169867
 Northern Ireland,Belfast,clothing,18163816
 North West England,Lancashire,meat & fish,18154068
-Northern Ireland,Belfast,fruits & vegetables,18151160
 North East England,Darlington,meat & fish,18148956
 South East England,Oxford,clothing,18144766
 North West England,Chorley,clothing,18144482
 East of England,Bedford Borough,clothing,18139388
-South East England,Fareham,fruits & vegetables,18136880
 Scotland,East Dunbartonshire,meat & fish,18083634
 Scotland,Glasgow City,meat & fish,18080737
 South East England,Isle of Wight,clothing,18069542
 Scotland,Dumfries and Galloway,clothing,18068258
-East of England,Norfolk,fruits & vegetables,18063476
-South East England,Isle of Wight,fruits & vegetables,18054922
 South East England,West Oxfordshire,meat & fish,18043687
-Scotland,Dumfries and Galloway,fruits & vegetables,18032308
 London,Harrow,clothing,18021094
 East Midlands,Lincolnshire,meat & fish,18005265
-London,Harrow,fruits & vegetables,17994857
 Northern Ireland,Ballymoney,meat & fish,17988402
 East of England,Norfolk,clothing,17974647
 Wales,Bargoed,meat & fish,17958252
 East of England,Colchester,meat & fish,17940283
 South East England,Fareham,clothing,17937490
 East Midlands,Hinckley and Bosworth,clothing,17933067
-East Midlands,Hinckley and Bosworth,fruits & vegetables,17928569
 East of England,Bedfordshire,meat & fish,17910111
-Wales,Powys,fruits & vegetables,17894818
 South East England,Sevenoaks,meat & fish,17884017
 Northern Ireland,Armagh,meat & fish,17854005
 Wales,Powys,clothing,17810622
 West Midlands,Rugby,meat & fish,17785894
 East of England,East Hertfordshire,meat & fish,17779878
 East of England,St. Edmundsbury,clothing,17711169
-East of England,St. Edmundsbury,fruits & vegetables,17702427
+East Midlands,Newark and Sherwood,fruits & vegetables,17515750
 Wales,Isle of Anglesey,dairy,17502388
+East of England,Uttlesford,fruits & vegetables,17468488
+Wales,Isle of Anglesey,fruits & vegetables,17458993
+London,Hackney,fruits & vegetables,17455757
 North East England,Stockton-on-Tees,dairy,17452432
 London,Hackney,dairy,17449762
 East of England,Uttlesford,dairy,17442357
 East Midlands,Newark and Sherwood,dairy,17430165
 South East England,Shepway,dairy,17400687
+North East England,Stockton-on-Tees,fruits & vegetables,17400099
+East Midlands,Rushcliffe,fruits & vegetables,17383638
+South East England,Shepway,fruits & vegetables,17371894
 East Midlands,Rushcliffe,dairy,17366302
+Yorkshire and the Humber,Selby,fruits & vegetables,17356510
 North East England,Darlington,dairy,17354933
+North West England,Lancashire,fruits & vegetables,17353613
+North East England,Darlington,fruits & vegetables,17342816
 West Midlands,Worcestershire,dairy,17315734
+Yorkshire and the Humber,York,fruits & vegetables,17306079
 Yorkshire and the Humber,Selby,dairy,17296460
+South East England,Reigate and Banstead,fruits & vegetables,17291353
 Yorkshire and the Humber,York,dairy,17287356
 Scotland,Glasgow City,dairy,17278602
 North West England,Lancashire,dairy,17271323
 South East England,Reigate and Banstead,dairy,17266052
+West Midlands,Worcestershire,fruits & vegetables,17234532
+Scotland,Glasgow City,fruits & vegetables,17217930
+East of England,Colchester,fruits & vegetables,17215940
+South East England,West Oxfordshire,fruits & vegetables,17208996
+South East England,Sevenoaks,fruits & vegetables,17204503
+East Midlands,Lincolnshire,fruits & vegetables,17182304
 Wales,Bargoed,dairy,17181465
 Scotland,East Dunbartonshire,dairy,17179913
+Scotland,East Dunbartonshire,fruits & vegetables,17155827
+Northern Ireland,Ballymoney,fruits & vegetables,17140263
 South East England,West Oxfordshire,dairy,17139831
 Northern Ireland,Ballymoney,dairy,17130191
+Wales,Bargoed,fruits & vegetables,17110116
 West Midlands,Rugby,dairy,17103228
 East Midlands,Lincolnshire,dairy,17077103
 East of England,Colchester,dairy,17073192
 South East England,Sevenoaks,dairy,17072579
 Northern Ireland,Armagh,dairy,17028853
+West Midlands,Rugby,fruits & vegetables,16994824
+East of England,Bedfordshire,fruits & vegetables,16990025
 East of England,Bedfordshire,dairy,16976162
+Northern Ireland,Armagh,fruits & vegetables,16918937
 East of England,East Hertfordshire,dairy,16894007
+East of England,East Hertfordshire,fruits & vegetables,16883208
 North East England,Stockton-on-Tees,clothing,16720255
 Wales,Isle of Anglesey,clothing,16686008
 London,Hackney,clothing,16661838
 East Midlands,Newark and Sherwood,clothing,16653540
-East Midlands,Newark and Sherwood,fruits & vegetables,16619672
-Wales,Isle of Anglesey,fruits & vegetables,16585745
-East of England,Uttlesford,fruits & vegetables,16577937
-London,Hackney,fruits & vegetables,16570604
 East of England,Uttlesford,clothing,16568212
-North East England,Stockton-on-Tees,fruits & vegetables,16534735
 East Midlands,Rushcliffe,clothing,16520684
-East Midlands,Rushcliffe,fruits & vegetables,16515004
-South East England,Shepway,fruits & vegetables,16510689
-North West England,Lancashire,fruits & vegetables,16495974
-North East England,Darlington,fruits & vegetables,16479218
-Yorkshire and the Humber,Selby,fruits & vegetables,16473913
 South East England,Shepway,clothing,16448957
 North West England,Lancashire,clothing,16444578
 North East England,Darlington,clothing,16438890
 Yorkshire and the Humber,Selby,clothing,16428683
-Yorkshire and the Humber,York,fruits & vegetables,16428168
-South East England,Reigate and Banstead,fruits & vegetables,16410831
 Scotland,Glasgow City,clothing,16394533
 East Midlands,Lincolnshire,clothing,16389476
 Yorkshire and the Humber,York,clothing,16384375
 South East England,Reigate and Banstead,clothing,16381699
-West Midlands,Worcestershire,fruits & vegetables,16376444
-Scotland,Glasgow City,fruits & vegetables,16370416
-East of England,Colchester,fruits & vegetables,16358097
 West Midlands,Worcestershire,clothing,16356344
-South East England,Sevenoaks,fruits & vegetables,16348884
 Scotland,East Dunbartonshire,clothing,16347062
-South East England,West Oxfordshire,fruits & vegetables,16339018
-East Midlands,Lincolnshire,fruits & vegetables,16335387
-Northern Ireland,Ballymoney,fruits & vegetables,16297232
 East of England,Colchester,clothing,16293649
-Scotland,East Dunbartonshire,fruits & vegetables,16291941
 Northern Ireland,Ballymoney,clothing,16267509
 South East England,Sevenoaks,clothing,16259073
 Wales,Bargoed,clothing,16254712
 South East England,West Oxfordshire,clothing,16243114
-Wales,Bargoed,fruits & vegetables,16229301
-West Midlands,Rugby,fruits & vegetables,16155147
 West Midlands,Rugby,clothing,16144837
-East of England,Bedfordshire,fruits & vegetables,16140413
 Northern Ireland,Armagh,clothing,16130387
 East of England,Bedfordshire,clothing,16120326
-Northern Ireland,Armagh,fruits & vegetables,16070769
-East of England,East Hertfordshire,fruits & vegetables,16046881
 East of England,East Hertfordshire,clothing,16019607
 Wales,Flintshire,gaming,15042945
 Wales,Flintshire,bakery,15007351
@@ -535,8 +535,6 @@ West Midlands,Rugby,bakery,11836486
 Northern Ireland,Armagh,bakery,11828262
 East of England,East Hertfordshire,gaming,11824072
 East of England,East Hertfordshire,bakery,11820137
-East Midlands,East Lindsey,fruits & vegetable,8711271
-Scotland,Falkirk,fruits & vegetable,8568180
 East Midlands,Lincoln,appliances,7490760
 Wales,Flintshire,appliances,7451236
 West Midlands,Stoke-on-Trent,appliances,7436809
@@ -681,86 +679,3 @@ West Midlands,Rugby,computing,5115835
 Scotland,East Dunbartonshire,computing,5102759
 Northern Ireland,Armagh,computing,5097497
 East of England,East Hertfordshire,computing,5081455
-East of England,East Cambridgeshire,fruits & vegetable,4261672
-South East England,Kent,fruits & vegetable,4193812
-London,Greater London,fruits & vegetable,4189584
-Scotland,Orkney,fruits & vegetable,4161172
-West Midlands,Warwickshire,fruits & vegetable,4159456
-South West England,West Somerset,fruits & vegetable,3829724
-London,Islington,fruits & vegetable,3741344
-Scotland,Edinburgh City,fruits & vegetable,3379328
-Wales,Neath Port Talbot,fruits & vegetable,3376516
-Wales,Wrexham,fruits & vegetable,3340152
-Yorkshire and the Humber,North Yorkshire,fruits & vegetable,2059000
-Wales,Flintshire,fruits & vegetable,1083914
-North West England,Wyre,fruits & vegetable,1073801
-East Midlands,Lincoln,fruits & vegetable,1064565
-London,Lambeth,fruits & vegetable,1063347
-Wales,Swansea,fruits & vegetable,1060574
-East of England,Castle Point,fruits & vegetable,1060018
-East Midlands,South Northamptonshire,fruits & vegetable,1058921
-South West England,Forest of Dean,fruits & vegetable,1055048
-North West England,Fylde,fruits & vegetable,1054838
-West Midlands,Stoke-on-Trent,fruits & vegetable,1054307
-London,Haringey,fruits & vegetable,1051317
-South East England,Epsom and Ewell,fruits & vegetable,1050879
-London,Newham,fruits & vegetable,1049613
-East Midlands,Bassetlaw,fruits & vegetable,1048943
-Yorkshire and the Humber,Richmondshire,fruits & vegetable,1045643
-North West England,Sefton,fruits & vegetable,1044278
-South East England,East Sussex,fruits & vegetable,1042982
-South East England,Mole Valley,fruits & vegetable,1039739
-West Midlands,Staffordshire,fruits & vegetable,1037909
-Scotland,North Ayrshire,fruits & vegetable,1037026
-Scotland,Peeblesshire,fruits & vegetable,1035829
-North East England,Tyne and Wear,fruits & vegetable,1034873
-North West England,Cheshire East,fruits & vegetable,1033233
-West Midlands,Lichfield,fruits & vegetable,1030249
-South East England,Chiltern,fruits & vegetable,1030079
-South West England,Dorset,fruits & vegetable,1027217
-Wales,Ceredigion,fruits & vegetable,1024263
-South West England,East Devon,fruits & vegetable,1024036
-Northern Ireland,Larne,fruits & vegetable,1006032
-Wales,Barry,fruits & vegetable,984730
-Wales,Bridgend,fruits & vegetable,981452
-East of England,Norfolk,fruits & vegetable,979746
-East Midlands,Nottinghamshire,fruits & vegetable,979152
-North West England,Chorley,fruits & vegetable,974471
-South East England,Bracknell Forest,fruits & vegetable,974453
-Northern Ireland,Belfast,fruits & vegetable,958913
-London,Harrow,fruits & vegetable,958862
-South East England,Hampshire,fruits & vegetable,956916
-South East England,Isle of Wight,fruits & vegetable,955154
-Wales,Rhoose,fruits & vegetable,950266
-South East England,Fareham,fruits & vegetable,948706
-East of England,Bedford Borough,fruits & vegetable,947316
-Scotland,Dumfries and Galloway,fruits & vegetable,945501
-Wales,Powys,fruits & vegetable,941587
-South East England,Oxford,fruits & vegetable,941391
-East of England,St. Edmundsbury,fruits & vegetable,926559
-East Midlands,Hinckley and Bosworth,fruits & vegetable,920740
-East Midlands,Newark and Sherwood,fruits & vegetable,896078
-East of England,Uttlesford,fruits & vegetable,890551
-London,Hackney,fruits & vegetable,885153
-Yorkshire and the Humber,Selby,fruits & vegetable,882597
-Wales,Bargoed,fruits & vegetable,880815
-South East England,Reigate and Banstead,fruits & vegetable,880522
-Yorkshire and the Humber,York,fruits & vegetable,877911
-Wales,Isle of Anglesey,fruits & vegetable,873248
-South East England,West Oxfordshire,fruits & vegetable,869978
-East Midlands,Rushcliffe,fruits & vegetable,868634
-North East England,Stockton-on-Tees,fruits & vegetable,865364
-Scotland,East Dunbartonshire,fruits & vegetable,863886
-North East England,Darlington,fruits & vegetable,863598
-South East England,Shepway,fruits & vegetable,861205
-West Midlands,Worcestershire,fruits & vegetable,858088
-East of England,Colchester,fruits & vegetable,857843
-North West England,Lancashire,fruits & vegetable,857639
-South East England,Sevenoaks,fruits & vegetable,855619
-East of England,Bedfordshire,fruits & vegetable,849612
-Northern Ireland,Armagh,fruits & vegetable,848168
-Scotland,Glasgow City,fruits & vegetable,847514
-East Midlands,Lincolnshire,fruits & vegetable,846917
-Northern Ireland,Ballymoney,fruits & vegetable,843031
-West Midlands,Rugby,fruits & vegetable,839677
-East of England,East Hertfordshire,fruits & vegetable,836327
