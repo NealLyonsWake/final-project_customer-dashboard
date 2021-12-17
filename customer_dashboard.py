@@ -8,6 +8,7 @@ from product_category_process import process_prod_cat
 from branch_performance_process import handle_branch_performance
 from hourly_sales_process import process_hourly_sales
 from profit_process import process_profit_data
+from whitenoise import WhiteNoise
 
 # Import dataframes
 region_list = pd.read_csv("data/region_list.csv")
@@ -23,8 +24,9 @@ region_options = region_list["region"]
 branch_options = branch_name_list["branch_name"]
 
 # Dash initialisation
-app = dash.Dash("", external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = dash.Dash("", external_stylesheets=[dbc.themes.BOOTSTRAP,"style.css"])
 server = app.server
+server.wsgi_app=WhiteNoise(server.wsgi_app,root='assets/')
 
 # Layout elements
 app.layout = html.Div([
